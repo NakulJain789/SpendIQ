@@ -21,6 +21,9 @@ app.use(
 // CORS configuration
 const allowedOrigins = [
   "https://spend-iq-orpin.vercel.app",
+  "https://spend-66nme07al-nakul-32e7.vercel.app",
+  "https://spend-ajs8q269q-nakul-32e7.vercel.app",
+  "https://spend-ijy4ha7py-nakul-32e7.vercel.app",
   "http://localhost:5173",
   "http://localhost:3000",
   "http://127.0.0.1:5173",
