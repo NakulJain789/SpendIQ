@@ -19,6 +19,7 @@ app.use(
 );
 
 // CORS configuration
+// CORS configuration
 const allowedOrigins = [
   "https://spend-iq-orpin.vercel.app",
   "https://spend-66nme07al-nakul-32e7.vercel.app",
@@ -38,24 +39,6 @@ app.use(
       }
 
       console.log("Blocked CORS origin:", origin);
-      return callback(new Error("CORS policy: Not allowed by CORS"));
-    },
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  }),
-);
-
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      if (!origin) return callback(null, true);
-      if (
-        allowedOrigins.indexOf(origin) !== -1 ||
-        process.env.NODE_ENV !== "production"
-      ) {
-        return callback(null, true);
-      }
       return callback(new Error("CORS policy: Not allowed by CORS"));
     },
     credentials: true,
