@@ -4,6 +4,18 @@
 
 ---
 
+🚀 Live Demo
+
+SpendIQ – Personal Finance Tracker
+
+Experience the live application here:
+
+🌐 "Open SpendIQ" (https://spend-iq-orpin.vercel.app/login)
+
+Backend API: "SpendIQ API" (https://spendiq-o7oc.onrender.com/api/health)
+
+Create an account or log in to explore the application and manage your personal finances.
+
 ## ⚡ Tech Stack
 
 | Layer | Technologies |
