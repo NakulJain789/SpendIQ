@@ -1,0 +1,16 @@
+{
+  "short_name": "SpendIQ",
+  "name": "SpendIQ Personal Finance",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#080C14",
+  "theme_color": "#8B5CF6",
+  "display": "standalone",
+  "orientation": "portrait"
+}
